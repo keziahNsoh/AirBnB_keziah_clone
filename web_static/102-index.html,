@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Adjust layout for smaller screens */
+@media screen and (max-width: 600px) {
+  /* No horizontal scrolling */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Redesign search bar */
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filters button {
+    margin-top: 10px;
+  }
+
+  /* Adjust places layout */
+  .places article {
+    width: 100%;
+  }
+}
+
